@@ -1,0 +1,62 @@
+# https://github.com/JanDeDobbeleer/oh-my-posh/
+palette:
+  green: 76
+  yellow: 178
+  blue: 39
+  red: 196
+upgrade:
+  source: cdn
+  interval: 168h
+  auto: false
+  notice: false
+blocks:
+  - type: prompt
+    alignment: left
+    segments:
+      - template: ➜
+        foreground: "#98C379"
+        type: text
+        style: plain
+      - properties:
+          style: folder
+        template: " {{ .Path }}"
+        foreground: "#56B6C2"
+        type: path
+        style: plain
+      - properties:
+          branch_icon: ""
+          branch_identical_icon: ""
+          branch_gone_icon: ""
+          fetch_status: true
+          fetch_upstream_icon: true
+          git_icon: 
+          github_icon: 
+          gitlab_icon: 
+        foreground: p:green
+        type: git
+        style: plain
+        template: >2-
+           {{ if .Upstream }}{{ .UpstreamIcon }} {{ else }} {{ end }}
+          {{- .HEAD }}
+          {{- if or (gt .Ahead 0) (gt .Behind 0) -}}
+          {{- if true }} {{ end }}
+          {{- if gt .Behind 0 }}⇣{{ .Behind }}{{ end }}
+          {{- if gt .Ahead 0 }}⇡{{ .Ahead }}{{ end }}
+          {{- end }}
+          {{- if gt .StashCount 0 }} *{{ .StashCount }}{{ end }}
+          {{- if or (gt .Staging.Deleted 0) (gt .Staging.Added 0) (gt .Staging.Modified 0) (gt .Staging.Untracked 0) (gt .Staging.Unmerged 0) -}}
+            <p:yellow> +{{ add .Staging.Deleted .Staging.Added .Staging.Modified .Staging.Untracked .Staging.Unmerged }}</>
+          {{- end }}
+          {{- if or (gt .Working.Deleted 0) (gt .Working.Added 0) (gt .Working.Modified 0) -}}
+            <p:yellow> !{{ add .Working.Deleted .Working.Added .Working.Modified }}</>
+          {{- end }}
+          {{- if or (gt .Working.Untracked 0) false -}}
+            <p:blue> ?{{ add .Working.Untracked 0 }}</>
+          {{- end }}
+      - template: " ✗"
+        foreground: "#BF616A"
+        type: status
+        style: plain
+version: 3
+final_space: true
+
