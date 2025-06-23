@@ -14,3 +14,8 @@
   type: file
   url: https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64
   executable: true
+.local/share/fonts:
+  type: archive
+  url: https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraMono.zip
+  refreshPeriod: 744h
+  include: ["*.otf"]
