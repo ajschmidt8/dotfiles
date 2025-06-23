@@ -2,4 +2,4 @@
 set -euo pipefail
 
 sudo apt update
-sudo apt install -y zsh
+sudo apt install -y zsh git
