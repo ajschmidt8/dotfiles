@@ -23,6 +23,6 @@
   include: ["*.otf"]
 .local/bin/mise:
   type: file
-  url: https://github.com/jdx/mise/releases/download/v2025.7.1/mise-v2025.7.1-linux-x64
+  url: https://github.com/jdx/mise/releases/download/v2025.7.3/mise-v2025.7.3-linux-x64
   executable: true
   refreshPeriod: 168h
