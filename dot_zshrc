@@ -113,7 +113,7 @@ typeset -U path  # make entries in $path (and $PATH) unique
 path=("$HOME/bin" "$HOME/.local/bin" $path)
 
 eval "$(oh-my-posh init zsh --config '~/.posh.yaml')"
-eval "$(~/.local/bin/mise activate bash)"
+eval "$(~/.local/bin/mise activate zsh)"
 
 if fzf --version > /dev/null; then
   source <(fzf --zsh)
