@@ -118,3 +118,9 @@ eval "$(~/.local/bin/mise activate zsh)"
 if fzf --version > /dev/null; then
   source <(fzf --zsh)
 fi
+
+# (.N) is a zsh glob qualifier that sets the NULL_GLOB option for the current
+# pattern.
+for file in ~/.source.d/*(.N); do
+  source "$file"
+done
