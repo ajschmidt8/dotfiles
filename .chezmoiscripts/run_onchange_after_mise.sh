@@ -16,5 +16,6 @@ mise use -g fzf@latest
 mise use -g fd@latest
 mise use -g shellcheck@latest
 mise use -g ripgrep@latest
+mise use -g k9s@latest
 
 mise prune -y
