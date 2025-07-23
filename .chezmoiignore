@@ -2,3 +2,4 @@
 .oh-my-zsh/cache/**
 .oh-my-zsh/templates/**
 README.md
+versions.yaml

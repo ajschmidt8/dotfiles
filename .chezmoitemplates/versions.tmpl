@@ -1,0 +1,9 @@
+{{- $versions := include "versions.yaml" | fromYaml -}}
+
+{{- if eq .machine_type "personal" -}}
+  {{- mustMerge $versions.common $versions.personal | toYaml -}}
+{{- else if eq .machine_type "work" -}}
+  {{- mustMerge $versions.common $versions.work | toYaml -}}
+{{- else -}}
+  {{- fail "Invalid machine type for versions template" -}}
+{{- end -}}

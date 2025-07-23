@@ -1,0 +1,21 @@
+# TODO: use static versions and `renovate` to update
+common:
+  aws: latest
+  bat: latest
+  bun: latest
+  fd: latest
+  fx: latest
+  fzf: latest
+  gh: latest
+  go: latest
+  jq: latest
+  k9s: latest
+  node: latest
+  ripgrep: latest
+  shellcheck: latest
+  sops: latest
+  yq: latest
+
+personal: {}
+
+work: {}
