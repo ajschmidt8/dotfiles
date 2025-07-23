@@ -1,4 +1,4 @@
-# TODO: ensure all externals have a static version that gets updated by renovate
+{{ $versions := (includeTemplate "versions.tmpl" .) | fromYaml -}}
 .oh-my-zsh:
   type: archive
   url: https://github.com/ohmyzsh/ohmyzsh/archive/master.tar.gz
@@ -13,16 +13,16 @@
   refreshPeriod: 168h
 .local/bin/oh-my-posh:
   type: file
-  url: https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64
+  url: https://github.com/JanDeDobbeleer/oh-my-posh/releases/{{ $versions.oh_my_posh }}/download/posh-linux-amd64
   executable: true
   refreshPeriod: 168h
 .local/share/fonts:
   type: archive
-  url: https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraMono.zip
+  url: https://github.com/ryanoasis/nerd-fonts/releases/{{ $versions.nerd_fonts }}/download/FiraMono.zip
   refreshPeriod: 744h
   include: ["*.otf"]
 .local/bin/mise:
   type: file
-  url: https://github.com/jdx/mise/releases/download/v2025.7.3/mise-v2025.7.3-linux-x64
+  url: https://github.com/jdx/mise/releases/download/{{ $versions.mise }}/mise-{{ $versions.mise }}-linux-x64
   executable: true
   refreshPeriod: 168h

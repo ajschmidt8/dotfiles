@@ -10,7 +10,10 @@ common:
   go: latest
   jq: latest
   k9s: latest
+  mise: v2025.7.20
+  nerd_fonts: latest
   node: latest
+  oh_my_posh: latest
   ripgrep: latest
   shellcheck: latest
   sops: latest
