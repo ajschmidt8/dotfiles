@@ -1,23 +1,23 @@
-# TODO: use static versions and `renovate` to update
+# TODO: use `renovate` to update
 common:
-  aws: latest
-  bat: latest
-  bun: latest
-  fd: latest
-  fx: latest
-  fzf: latest
-  gh: latest
-  go: latest
-  jq: latest
-  k9s: latest
-  mise: v2025.7.20
-  nerd_fonts: latest
-  node: latest
-  oh_my_posh: latest
-  ripgrep: latest
-  shellcheck: latest
-  sops: latest
-  yq: latest
+  aws: 2.28.1
+  bat: 0.25.0
+  bun: 1.2.19
+  fd: 10.2.0
+  fx: 38.0.0
+  fzf: 0.65.1
+  gh: 2.76.2
+  go: 1.24.5
+  jq: 1.8.1
+  k9s: 0.50.9
+  mise: 2025.8.4
+  nerd_fonts: 3.4.0
+  node: 24.5.0
+  oh_my_posh: 26.17.3
+  ripgrep: 14.1.1
+  shellcheck: 0.10.0
+  sops: 3.10.2
+  yq: 4.47.1
 
 personal: {}
 
