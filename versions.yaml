@@ -1,22 +1,39 @@
-# TODO: use `renovate` to update
 common:
+  # renovate: datasource=github-tags packageName=aws/aws-cli
   aws: 2.28.1
+  # renovate: datasource=github-tags packageName=sharkdp/bat extractVersion=^v(?<version>.*)$
   bat: 0.25.0
+  # renovate: datasource=github-tags packageName=oven-sh/bun extractVersion=^bun-v(?<version>.*)$
   bun: 1.2.19
+  # renovate: datasource=github-tags packageName=sharkdp/fd extractVersion=^v(?<version>.*)$
   fd: 10.2.0
+  # renovate: datasource=github-tags packageName=antonmedv/fx
   fx: 38.0.0
+  # renovate: datasource=github-tags packageName=junegunn/fzf extractVersion=^v(?<version>.*)$
   fzf: 0.65.1
+  # renovate: datasource=github-tags packageName=cli/cli extractVersion=^v(?<version>.*)$
   gh: 2.76.2
+  # renovate: datasource=github-tags packageName=golang/go extractVersion=^go(?<version>.*)$
   go: 1.24.5
+  # renovate: datasource=github-tags packageName=jqlang/jq extractVersion=^jq-(?<version>.*)$
   jq: 1.8.1
+  # renovate: datasource=github-tags packageName=derailed/k9s extractVersion=^v(?<version>.*)$
   k9s: 0.50.9
+  # renovate: datasource=github-tags packageName=jdx/mise extractVersion=^v(?<version>.*)$
   mise: 2025.8.4
+  # renovate: datasource=github-tags packageName=ryanoasis/nerd-fonts extractVersion=^v(?<version>.*)$
   nerd_fonts: 3.4.0
+  # renovate: datasource=github-tags packageName=nodejs/node extractVersion=^v(?<version>.*)$
   node: 24.5.0
+  # renovate: datasource=github-tags packageName=JanDeDobbeleer/oh-my-posh extractVersion=^v(?<version>.*)$
   oh_my_posh: 26.17.3
+  # renovate: datasource=github-tags packageName=BurntSushi/ripgrep
   ripgrep: 14.1.1
+  # renovate: datasource=github-tags packageName=koalaman/shellcheck extractVersion=^v(?<version>.*)$
   shellcheck: 0.10.0
+  # renovate: datasource=github-tags packageName=getsops/sops extractVersion=^v(?<version>.*)$
   sops: 3.10.2
+  # renovate: datasource=github-tags packageName=mikefarah/yq extractVersion=^v(?<version>.*)$
   yq: 4.47.1
 
 personal: {}

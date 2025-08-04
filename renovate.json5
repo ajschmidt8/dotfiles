@@ -2,5 +2,17 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Update versions.yaml dependencies",
+      "managerFilePatterns": [
+        "/^versions.yaml$/"
+      ],
+      "matchStrings": [
+        "# renovate: datasource=(?<datasource>[a-z-]+?) packageName=(?<packageName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?(?: extractVersion=(?<extractVersion>.+?))?\\n\\s+\\w+:(?<currentValue>.+?)\\s"
+      ]
+    }
   ]
 }
