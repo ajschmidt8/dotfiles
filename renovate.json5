@@ -16,7 +16,7 @@
         "/^versions.yaml$/"
       ],
       "matchStrings": [
-        "# renovate: datasource=(?<datasource>[a-z-]+?) packageName=(?<packageName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?(?: extractVersion=(?<extractVersion>.+?))?\\n\\s+\\w+:(?<currentValue>.+?)\\s"
+        "# renovate: datasource=(?<datasource>[a-z-]+?) packageName=(?<packageName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?(?: extractVersion=(?<extractVersion>.+?))?\\n\\s+\\w+:\\s(?<currentValue>.+?)\\s"
       ]
     }
   ]
