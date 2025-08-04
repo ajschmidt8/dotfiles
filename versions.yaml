@@ -30,7 +30,7 @@ common:
   # renovate: datasource=github-tags packageName=BurntSushi/ripgrep
   ripgrep: 14.1.1
   # renovate: datasource=github-tags packageName=koalaman/shellcheck extractVersion=^v(?<version>.*)$
-  shellcheck: 0.10.0
+  shellcheck:0.11.0
   # renovate: datasource=github-tags packageName=getsops/sops extractVersion=^v(?<version>.*)$
   sops: 3.10.2
   # renovate: datasource=github-tags packageName=mikefarah/yq extractVersion=^v(?<version>.*)$
