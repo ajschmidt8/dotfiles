@@ -4,11 +4,6 @@ palette:
   yellow: 178
   blue: 39
   red: 196
-upgrade:
-  source: cdn
-  interval: 168h
-  auto: false
-  notice: false
 blocks:
   - type: prompt
     alignment: left
