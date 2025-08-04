@@ -3,3 +3,4 @@
 .oh-my-zsh/templates/**
 README.md
 versions.yaml
+renovate.json*
