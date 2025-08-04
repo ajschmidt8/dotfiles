@@ -4,7 +4,7 @@
     "config:recommended",
     ":configMigration",
     ":automergeMinor",
-    ":automergePatch",
+    ":skipStatusChecks",
     "group:allNonMajor",
     "schedule:monthly"
   ],
