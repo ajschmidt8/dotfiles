@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
+# versions.yaml hash: {{ include "versions.yaml" | sha256sum }}
+
 {{ $versions := (includeTemplate "versions.tmpl" .) | fromYaml -}}
 mise use -g node@{{ $versions.node }}
 mise use -g go@{{ $versions.go }}
