@@ -1,10 +1,10 @@
 common:
   # renovate: packageName=aws/aws-cli
-  aws: 2.28.1
+  aws: 2.28.11
   # renovate: packageName=sharkdp/bat extractVersion=^v(?<version>.*)$
   bat: 0.25.0
   # renovate: packageName=oven-sh/bun extractVersion=^bun-v(?<version>.*)$
-  bun: 1.2.19
+  bun: 1.2.20
   # renovate: packageName=sharkdp/fd extractVersion=^v(?<version>.*)$
   fd: 10.2.0
   # renovate: packageName=antonmedv/fx
@@ -14,19 +14,19 @@ common:
   # renovate: packageName=cli/cli extractVersion=^v(?<version>.*)$
   gh: 2.76.2
   # renovate: packageName=golang/go extractVersion=^go(?<version>.*)$
-  go: 1.24.5
+  go: 1.25.0
   # renovate: packageName=jqlang/jq extractVersion=^jq-(?<version>.*)$
   jq: 1.8.1
   # renovate: packageName=derailed/k9s extractVersion=^v(?<version>.*)$
   k9s: 0.50.9
   # renovate: packageName=jdx/mise extractVersion=^v(?<version>.*)$
-  mise: 2025.8.4
+  mise: 2025.8.10
   # renovate: packageName=ryanoasis/nerd-fonts extractVersion=^v(?<version>.*)$
   nerd_fonts: 3.4.0
   # renovate: packageName=nodejs/node extractVersion=^v(?<version>.*)$
-  node: 24.5.0
+  node: 24.6.0
   # renovate: packageName=JanDeDobbeleer/oh-my-posh extractVersion=^v(?<version>.*)$
-  oh_my_posh: 26.17.3
+  oh_my_posh: 26.19.1
   # renovate: packageName=BurntSushi/ripgrep
   ripgrep: 14.1.1
   # renovate: packageName=koalaman/shellcheck extractVersion=^v(?<version>.*)$
