@@ -8,7 +8,7 @@ common:
   # renovate: packageName=sharkdp/fd extractVersion=^v(?<version>.*)$
   fd: 10.2.0
   # renovate: packageName=antonmedv/fx
-  fx: 38.0.0
+  fx: 39.0.1
   # renovate: packageName=junegunn/fzf extractVersion=^v(?<version>.*)$
   fzf: 0.65.1
   # renovate: packageName=cli/cli extractVersion=^v(?<version>.*)$
