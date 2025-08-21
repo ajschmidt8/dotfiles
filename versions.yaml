@@ -1,6 +1,6 @@
 common:
   # renovate: packageName=aws/aws-cli
-  aws: 2.28.11
+  aws: 2.28.14
   # renovate: packageName=sharkdp/bat extractVersion=^v(?<version>.*)$
   bat: 0.25.0
   # renovate: packageName=oven-sh/bun extractVersion=^bun-v(?<version>.*)$
@@ -20,7 +20,7 @@ common:
   # renovate: packageName=derailed/k9s extractVersion=^v(?<version>.*)$
   k9s: 0.50.9
   # renovate: packageName=jdx/mise extractVersion=^v(?<version>.*)$
-  mise: 2025.8.10
+  mise: 2025.8.16
   # renovate: packageName=ryanoasis/nerd-fonts extractVersion=^v(?<version>.*)$
   nerd_fonts: 3.4.0
   # renovate: packageName=nodejs/node extractVersion=^v(?<version>.*)$
