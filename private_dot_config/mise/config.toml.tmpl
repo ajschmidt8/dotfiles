@@ -1,0 +1,18 @@
+{{ $versions := (includeTemplate "versions.tmpl" .) | fromYaml -}}
+[tools]
+"aqua:schollz/croc" = '{{ $versions.croc }}'
+aws-cli = '{{ $versions.aws }}'
+bat = '{{ $versions.bat }}'
+bun = '{{ $versions.bun }}'
+fd = '{{ $versions.fd }}'
+fx = '{{ $versions.fx }}'
+fzf = '{{ $versions.fzf }}'
+gh = '{{ $versions.gh }}'
+go = '{{ $versions.go }}'
+jq = '{{ $versions.jq }}'
+k9s = '{{ $versions.k9s }}'
+node = '{{ $versions.node }}'
+ripgrep = '{{ $versions.ripgrep }}'
+shellcheck = '{{ $versions.shellcheck }}'
+sops = '{{ $versions.sops }}'
+yq = '{{ $versions.yq }}'

@@ -5,6 +5,8 @@ common:
   bat: 0.25.0
   # renovate: packageName=oven-sh/bun extractVersion=^bun-v(?<version>.*)$
   bun: 1.2.23
+  # renovate: packageName=schollz/croc extractVersion=^v(?<version>.*)$
+  croc: 10.2.7
   # renovate: packageName=sharkdp/fd extractVersion=^v(?<version>.*)$
   fd: 10.3.0
   # renovate: packageName=antonmedv/fx

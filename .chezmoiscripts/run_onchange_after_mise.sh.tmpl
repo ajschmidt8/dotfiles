@@ -1,24 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
-# versions.yaml key/value hash (ignore YAML comments by hashing JSON)
+# versions.yaml key/value hash
 # {{ include "versions.yaml" | fromYaml | toPrettyJson | sha256sum }}
 
-{{ $versions := (includeTemplate "versions.tmpl" .) | fromYaml -}}
-mise use -g node@{{ $versions.node }}
-mise use -g go@{{ $versions.go }}
-mise use -g jq@{{ $versions.jq }}
-mise use -g yq@{{ $versions.yq }}
-mise use -g gh@{{ $versions.gh }}
-mise use -g aws-cli@{{ $versions.aws }}
-mise use -g bun@{{ $versions.bun }}
-mise use -g sops@{{ $versions.sops }}
-mise use -g fx@{{ $versions.fx }}
-mise use -g bat@{{ $versions.bat }}
-mise use -g fzf@{{ $versions.fzf }}
-mise use -g fd@{{ $versions.fd }}
-mise use -g shellcheck@{{ $versions.shellcheck }}
-mise use -g ripgrep@{{ $versions.ripgrep }}
-mise use -g k9s@{{ $versions.k9s }}
-
+(cd ~/.config/mise && mise install)
 mise prune -y
