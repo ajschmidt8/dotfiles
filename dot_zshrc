@@ -105,6 +105,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias scan-yk="gpg-connect-agent 'scd serialno' 'learn --force' /bye"
 
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
