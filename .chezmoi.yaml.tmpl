@@ -1,4 +1,6 @@
 {{- $machine_types := list "personal" "work" -}}
 {{- $machine_type := promptChoiceOnce . "machine_type" "What type of machine are you on" $machine_types -}}
+{{ $email := promptStringOnce . "email" "What is your email address" }}
 data:
   machine_type: {{ $machine_type }}
+  email: {{ $email }}
