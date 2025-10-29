@@ -4,5 +4,7 @@ set -euo pipefail
 # versions.yaml key/value hash
 # {{ include "versions.yaml" | fromYaml | toPrettyJson | sha256sum }}
 
+export PATH=$PATH:~/.local/bin
+
 (cd ~/.config/mise && mise install)
 mise prune -y
