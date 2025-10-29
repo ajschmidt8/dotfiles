@@ -1,8 +1,8 @@
 .oh-my-zsh/.github/**
 .oh-my-zsh/cache/**
 .oh-my-zsh/templates/**
-.oh-my-zsh/plugins/**
-!.oh-my-zsh/plugins/git
+.oh-my-zsh/plugins/*
+!.oh-my-zsh/plugins/git/
 README.md
 versions.yaml
 renovate.json*
