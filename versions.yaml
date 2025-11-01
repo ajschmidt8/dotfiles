@@ -30,7 +30,7 @@ common:
   # renovate: packageName=JanDeDobbeleer/oh-my-posh extractVersion=^v(?<version>.*)$
   oh_my_posh: 26.26.3
   # renovate: packageName=BurntSushi/ripgrep
-  ripgrep: 14.1.1
+  ripgrep: 15.1.0
   # renovate: packageName=koalaman/shellcheck extractVersion=^v(?<version>.*)$
   shellcheck: 0.11.0
   # renovate: packageName=getsops/sops extractVersion=^v(?<version>.*)$
