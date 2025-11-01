@@ -22,7 +22,7 @@ common:
   # renovate: packageName=derailed/k9s extractVersion=^v(?<version>.*)$
   k9s: 0.50.16
   # renovate: packageName=jdx/mise extractVersion=^v(?<version>.*)$
-  mise: 2025.10.21
+  mise: 2025.11.0
   # renovate: packageName=ryanoasis/nerd-fonts extractVersion=^v(?<version>.*)$
   nerd_fonts: 3.4.0
   # renovate: packageName=nodejs/node extractVersion=^v(?<version>.*)$
