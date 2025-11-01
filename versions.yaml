@@ -26,7 +26,7 @@ common:
   # renovate: packageName=ryanoasis/nerd-fonts extractVersion=^v(?<version>.*)$
   nerd_fonts: 3.4.0
   # renovate: packageName=nodejs/node extractVersion=^v(?<version>.*)$
-  node: 24.11.0
+  node: 25.1.0
   # renovate: packageName=JanDeDobbeleer/oh-my-posh extractVersion=^v(?<version>.*)$
   oh_my_posh: 27.4.4
   # renovate: packageName=BurntSushi/ripgrep
