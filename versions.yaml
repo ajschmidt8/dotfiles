@@ -28,7 +28,7 @@ common:
   # renovate: packageName=nodejs/node extractVersion=^v(?<version>.*)$
   node: 24.11.0
   # renovate: packageName=JanDeDobbeleer/oh-my-posh extractVersion=^v(?<version>.*)$
-  oh_my_posh: 26.26.3
+  oh_my_posh: 27.4.4
   # renovate: packageName=BurntSushi/ripgrep
   ripgrep: 15.1.0
   # renovate: packageName=koalaman/shellcheck extractVersion=^v(?<version>.*)$
