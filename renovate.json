@@ -16,7 +16,7 @@
         "/^versions.yaml$/"
       ],
       "matchStrings": [
-        "# renovate: packageName=(?<packageName>.+?)(?: datasource=(?<datasource>[a-z-]+?))?(?: versioning=(?<versioning>[a-z-]+?))?(?: extractVersion=(?<extractVersion>.+?))?\\n\\s+\\w+:\\s(?<currentValue>.+?)\\s"
+        "# renovate: packageName=(?<packageName>.+?)(?: datasource=(?<datasource>[a-z-]+?))?(?: versioning=(?<versioning>[a-z-]+?))?(?: extractVersion=(?<extractVersion>.+?))?\\n\\s+\\w+:\\s\"(?<currentValue>.+?)\"\\s"
       ],
       "datasourceTemplate": "{{#if datasource}}{{{datasource}}}{{else}}github-tags{{/if}}"
     }

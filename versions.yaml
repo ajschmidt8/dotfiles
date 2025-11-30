@@ -1,42 +1,46 @@
 common:
   # renovate: packageName=aws/aws-cli
-  aws: 2.31.27
+  aws: "2.31.5"
   # renovate: packageName=sharkdp/bat extractVersion=^v(?<version>.*)$
-  bat: 0.26.0
+  bat: "0.26.0"
   # renovate: packageName=oven-sh/bun extractVersion=^bun-v(?<version>.*)$
-  bun: 1.3.1
+  bun: "1.3.1"
   # renovate: packageName=schollz/croc extractVersion=^v(?<version>.*)$
-  croc: 10.2.7
+  croc: "10.2.7"
+  # renovate: packageName=elixir-lang/elixir extractVersion=^v(?<version>.*)$
+  elixir: "1.19.4"
+  # renovate: packageName=erlang/otp extractVersion=^OTP-(?<version>.*)$
+  erlang: "28.2"
   # renovate: packageName=sharkdp/fd extractVersion=^v(?<version>.*)$
-  fd: 10.3.0
+  fd: "10.3.0"
   # renovate: packageName=antonmedv/fx
-  fx: 39.1.0
+  fx: "39.1.0"
   # renovate: packageName=junegunn/fzf extractVersion=^v(?<version>.*)$
-  fzf: 0.66.1
+  fzf: "0.66.1"
   # renovate: packageName=cli/cli extractVersion=^v(?<version>.*)$
-  gh: 2.82.1
+  gh: "2.82.1"
   # renovate: packageName=golang/go extractVersion=^go(?<version>.*)$
-  go: 1.25.3
+  go: "1.25.3"
   # renovate: packageName=jqlang/jq extractVersion=^jq-(?<version>.*)$
-  jq: 1.8.1
+  jq: "1.8.1"
   # renovate: packageName=derailed/k9s extractVersion=^v(?<version>.*)$
-  k9s: 0.50.16
+  k9s: "0.50.16"
   # renovate: packageName=jdx/mise extractVersion=^v(?<version>.*)$
-  mise: 2025.11.0
+  mise: "2025.11.0"
   # renovate: packageName=ryanoasis/nerd-fonts extractVersion=^v(?<version>.*)$
-  nerd_fonts: 3.4.0
+  nerd_fonts: "3.4.0"
   # renovate: packageName=nodejs/node extractVersion=^v(?<version>.*)$
-  node: 25.1.0
+  node: "25.1.0"
   # renovate: packageName=JanDeDobbeleer/oh-my-posh extractVersion=^v(?<version>.*)$
-  oh_my_posh: 27.4.4
+  oh_my_posh: "27.4.4"
   # renovate: packageName=BurntSushi/ripgrep
-  ripgrep: 15.1.0
+  ripgrep: "15.1.0"
   # renovate: packageName=koalaman/shellcheck extractVersion=^v(?<version>.*)$
-  shellcheck: 0.11.0
+  shellcheck: "0.11.0"
   # renovate: packageName=getsops/sops extractVersion=^v(?<version>.*)$
-  sops: 3.11.0
+  sops: "3.11.0"
   # renovate: packageName=mikefarah/yq extractVersion=^v(?<version>.*)$
-  yq: 4.48.1
+  yq: "4.48.1"
 
 personal: {}
 
