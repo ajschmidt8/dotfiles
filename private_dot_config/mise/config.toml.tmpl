@@ -4,7 +4,7 @@
 aws-cli = '{{ $versions.aws }}'
 bat = '{{ $versions.bat }}'
 bun = '{{ $versions.bun }}'
-elixir = '{{ $versions.elixir }}'
+elixir = '{{ $versions.elixir }}-otp-{{ ($versions.erlang | split ".")._0 }}'
 erlang = '{{ $versions.erlang }}'
 fd = '{{ $versions.fd }}'
 fx = '{{ $versions.fx }}'
