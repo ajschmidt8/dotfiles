@@ -34,7 +34,7 @@ common:
   # renovate: packageName=nodejs/node extractVersion=^v(?<version>.*)$
   node: "25.5.0"
   # renovate: packageName=JanDeDobbeleer/oh-my-posh extractVersion=^v(?<version>.*)$
-  oh_my_posh: "28.10.0"
+  oh_my_posh: "29.1.0"
   # renovate: packageName=BurntSushi/ripgrep
   ripgrep: "15.1.0"
   # renovate: packageName=koalaman/shellcheck extractVersion=^v(?<version>.*)$
