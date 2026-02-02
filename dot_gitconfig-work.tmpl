@@ -1,0 +1,7 @@
+{{ if eq .machine_type "work" }}
+[user]
+  email = {{ .work_email }}
+  signingKey= ~/.ssh/key.pub
+[gpg]
+  format = ssh
+{{ end }}

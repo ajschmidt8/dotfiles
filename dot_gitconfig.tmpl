@@ -1,21 +1,32 @@
 [user]
-	email = {{ .email }}
-	name = AJ Schmidt
-	signingkey = 738D6DADADB0CC47
+  name = AJ Schmidt
 [pull]
-	rebase = false
+  rebase = false
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [checkout]
-    defaultRemote = origin
+  defaultRemote = origin
 [diff]
-    wsErrorHighlight = all
-    colorMoved = default
+  wsErrorHighlight = all
+  colorMoved = default
 [commit]
-	gpgsign = true
+  gpgSign = true
 [tag]
-	gpgSign = true
+  gpgSign = true
 [merge]
-    conflictstyle = diff3
+  conflictstyle = diff3
 [rerere]
-    enabled = 1
+  enabled = 1
+
+
+[includeIf "hasconfig:remote.*.url:https://github.com/**"]
+    path = ~/.gitconfig-github
+[includeIf "hasconfig:remote.*.url:git@github.com:*/**"]
+    path = ~/.gitconfig-github
+
+{{ if eq .machine_type "work" }}
+[includeIf "hasconfig:remote.*.url:https://{{ .work_git_domain }}/**"]
+    path = ~/.gitconfig-work
+[includeIf "hasconfig:remote.*.url:ssh://git@{{ .work_git_domain }}:*/*/**"]
+    path = ~/.gitconfig-work
+{{ end }}

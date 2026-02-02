@@ -1,6 +1,12 @@
 {{- $machine_types := list "personal" "work" -}}
 {{- $machine_type := promptChoiceOnce . "machine_type" "What type of machine are you on" $machine_types -}}
-{{ $email := promptStringOnce . "email" "What is your email address" }}
+{{ $personal_email := promptStringOnce . "personal_email" "What is your personal email address" }}
 data:
   machine_type: {{ $machine_type }}
-  email: {{ $email }}
+  personal_email: {{ $personal_email }}
+{{ if eq $machine_type "work" }}
+  {{ $work_email := promptStringOnce . "work_email" "What is your work email address" }}
+  {{ $work_git_domain := promptStringOnce . "work_git_domain" "What is your work git domain" }}
+  work_email: {{ $work_email }}
+  work_git_domain: {{ $work_git_domain }}
+{{ end }}
