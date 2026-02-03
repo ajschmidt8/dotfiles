@@ -19,3 +19,6 @@ ripgrep = '{{ $versions.ripgrep }}'
 shellcheck = '{{ $versions.shellcheck }}'
 sops = '{{ $versions.sops }}'
 yq = '{{ $versions.yq }}'
+{{ if eq .machine_type "work" -}}
+glab = '{{ $versions.glab }}'
+{{ end -}}
