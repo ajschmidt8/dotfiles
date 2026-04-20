@@ -25,8 +25,8 @@
     path = ~/.gitconfig-github
 
 {{ if eq .machine_type "work" }}
-[includeIf "hasconfig:remote.*.url:https://{{ .work_git_domain }}/**"]
+[includeIf "hasconfig:remote.*.url:https://*.{{ .work_tld }}/**"]
     path = ~/.gitconfig-work
-[includeIf "hasconfig:remote.*.url:ssh://git@{{ .work_git_domain }}:*/*/**"]
+[includeIf "hasconfig:remote.*.url:ssh://git@*.{{ .work_tld }}:*/*/**"]
     path = ~/.gitconfig-work
 {{ end }}

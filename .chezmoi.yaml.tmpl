@@ -6,7 +6,7 @@ data:
   personal_email: {{ $personal_email }}
 {{ if eq $machine_type "work" }}
   {{ $work_email := promptStringOnce . "work_email" "What is your work email address" }}
-  {{ $work_git_domain := promptStringOnce . "work_git_domain" "What is your work git domain" }}
+  {{ $work_tld := promptStringOnce . "work_tld" "What is your work TLD?" }}
   work_email: {{ $work_email }}
-  work_git_domain: {{ $work_git_domain }}
+  work_tld: {{ $work_tld }}
 {{ end }}
