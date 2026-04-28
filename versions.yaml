@@ -21,7 +21,7 @@ common:
   fzf: "0.70.0"
   # renovate: packageName=cli/cli extractVersion=^v(?<version>.*)$
   gh: "2.89.0"
-  # renovate: packageName=gitlab-org/cli datasource=gitlab-tags extractVersion=^go(?<version>.*)$
+  # renovate: packageName=gitlab-org/cli datasource=gitlab-tags extractVersion=^v(?<version>.*)$
   glab: "1.82.0"
   # renovate: packageName=golang/go extractVersion=^go(?<version>.*)$
   go: "1.26.1"
