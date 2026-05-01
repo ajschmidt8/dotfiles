@@ -1,6 +1,6 @@
 common:
   # renovate: packageName=aws/aws-cli
-  aws: "2.34.38"
+  aws: "2.34.40"
   # renovate: packageName=sharkdp/bat extractVersion=^v(?<version>.*)$
   bat: "0.26.1"
   # renovate: packageName=oven-sh/bun extractVersion=^bun-v(?<version>.*)$
@@ -30,13 +30,13 @@ common:
   # renovate: packageName=derailed/k9s extractVersion=^v(?<version>.*)$
   k9s: "0.50.18"
   # renovate: packageName=jdx/mise extractVersion=^v(?<version>.*)$
-  mise: "2026.4.25"
+  mise: "2026.4.28"
   # renovate: packageName=ryanoasis/nerd-fonts extractVersion=^v(?<version>.*)$
   nerd_fonts: "3.4.0"
   # renovate: packageName=nodejs/node extractVersion=^v(?<version>.*)$
   node: "25.9.0"
   # renovate: packageName=JanDeDobbeleer/oh-my-posh extractVersion=^v(?<version>.*)$
-  oh_my_posh: "29.11.0"
+  oh_my_posh: "29.12.0"
   # renovate: packageName=BurntSushi/ripgrep
   ripgrep: "15.1.0"
   # renovate: packageName=koalaman/shellcheck extractVersion=^v(?<version>.*)$
