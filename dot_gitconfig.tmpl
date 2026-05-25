@@ -1,5 +1,7 @@
 [user]
   name = AJ Schmidt
+  email = {{ .personal_email }}
+  signingkey = 738D6DADADB0CC47
 [pull]
   rebase = false
 [init]
@@ -17,12 +19,6 @@
   conflictstyle = diff3
 [rerere]
   enabled = 1
-
-
-[includeIf "hasconfig:remote.*.url:https://github.com/**"]
-    path = ~/.gitconfig-github
-[includeIf "hasconfig:remote.*.url:git@github.com:*/**"]
-    path = ~/.gitconfig-github
 
 {{ if eq .machine_type "work" }}
 [includeIf "hasconfig:remote.*.url:https://*.{{ .work_tld }}/**"]
