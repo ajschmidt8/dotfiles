@@ -43,6 +43,10 @@ common:
   shellcheck: "0.11.0"
   # renovate: packageName=getsops/sops extractVersion=^v(?<version>.*)$
   sops: "3.12.2"
+  # renovate: packageName=astral-sh/uv
+  uv: "0.11.21"
+  # renovate: packageName=Yubico/yubikey-manager
+  ykman: "5.9.1"
   # renovate: packageName=mikefarah/yq extractVersion=^v(?<version>.*)$
   yq: "4.53.2"
 
