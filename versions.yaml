@@ -12,7 +12,7 @@ common:
   # renovate: packageName=elixir-lang/elixir extractVersion=^v(?<version>.*)$
   elixir: "1.20.2"
   # renovate: packageName=erlang/otp extractVersion=^OTP-(?<version>.*)$
-  erlang: "28.5"
+  erlang: "29.0.2"
   # renovate: packageName=sharkdp/fd extractVersion=^v(?<version>.*)$
   fd: "10.4.2"
   # renovate: packageName=antonmedv/fx
