@@ -34,7 +34,7 @@ common:
   # renovate: packageName=ryanoasis/nerd-fonts extractVersion=^v(?<version>.*)$
   nerd_fonts: "3.4.0"
   # renovate: packageName=nodejs/node extractVersion=^v(?<version>.*)$
-  node: "25.9.0"
+  node: "26.4.0"
   # renovate: packageName=JanDeDobbeleer/oh-my-posh extractVersion=^v(?<version>.*)$
   oh_my_posh: "29.19.0"
   # renovate: packageName=BurntSushi/ripgrep
