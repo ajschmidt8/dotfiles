@@ -104,8 +104,6 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias scan-yk="gpg-connect-agent 'scd serialno' 'learn --force' /bye"
 
 export LANG=en_US.UTF-8
@@ -116,6 +114,10 @@ path=("$HOME/bin" "$HOME/.local/bin" $path)
 
 eval "$(oh-my-posh init zsh --config '~/.posh.yaml')"
 eval "$(~/.local/bin/mise activate zsh)"
+
+COMPLETIONS_DIR="${HOME}/.oh-my-zsh/custom/completions"
+mkdir -p "${COMPLETIONS_DIR}"
+mise completion zsh  > "${COMPLETIONS_DIR}/_mise"
 
 if fzf --version > /dev/null; then
   source <(fzf --zsh)
