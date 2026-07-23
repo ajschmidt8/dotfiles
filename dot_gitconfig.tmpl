@@ -16,9 +16,16 @@
 [tag]
   gpgSign = true
 [merge]
-  conflictstyle = diff3
+  conflictstyle = zdiff3
 [rerere]
   enabled = 1
+[core]
+    pager = delta
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true
+    line-numbers = true
 
 {{ if eq .machine_type "work" }}
 [includeIf "hasconfig:remote.*.url:https://*.{{ .work_tld }}/**"]
