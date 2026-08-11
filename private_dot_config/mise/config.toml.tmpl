@@ -1,11 +1,12 @@
 {{ $versions := (includeTemplate "versions.tmpl" .) | fromYaml -}}
 [tools]
-"aqua:schollz/croc" = '{{ $versions.croc }}'
 age = '{{ $versions.age }}'
 aws-cli = '{{ $versions.aws }}'
 bat = '{{ $versions.bat }}'
 bitwarden = '{{ $versions.bitwarden }}'
 bun = '{{ $versions.bun }}'
+claude = '{{ $versions.claude }}'
+croc = '{{ $versions.croc }}'
 delta = '{{ $versions.delta }}'
 dust = '{{ $versions.dust }}'
 fd = '{{ $versions.fd }}'
