@@ -2,7 +2,7 @@ common:
   # renovate: packageName=FiloSottile/age extractVersion=^v(?<version>.*)$
   age: "1.3.1"
   # renovate: packageName=aws/aws-cli
-  aws: "2.36.14"
+  aws: "2.36.25"
   # renovate: packageName=sharkdp/bat extractVersion=^v(?<version>.*)$
   bat: "0.26.1"
   # renovate: packageName=bitwarden/clients extractVersion=^cli-v(?<version>.*)$
@@ -10,9 +10,9 @@ common:
   # renovate: packageName=oven-sh/bun extractVersion=^bun-v(?<version>.*)$
   bun: "1.3.14"
   # renovate: packageName=anthropics/claude-code extractVersion=^v(?<version>.*)$
-  claude: "2.1.227"
+  claude: "2.1.234"
   # renovate: packageName=schollz/croc extractVersion=^v(?<version>.*)$
-  croc: "11.1.1"
+  croc: "11.2.1"
   # renovate: packageName=dandavison/delta
   delta: "0.19.2"
   # renovate: packageName=bootandy/dust extractVersion=^v(?<version>.*)$
@@ -22,25 +22,25 @@ common:
   # renovate: packageName=antonmedv/fx
   fx: "39.2.0"
   # renovate: packageName=junegunn/fzf extractVersion=^v(?<version>.*)$
-  fzf: "0.74.2"
+  fzf: "0.74.3"
   # renovate: packageName=cli/cli extractVersion=^v(?<version>.*)$
   gh: "2.97.0"
   # renovate: packageName=gitlab-org/cli datasource=gitlab-tags extractVersion=^v(?<version>.*)$
-  glab: "1.111.0"
+  glab: "1.114.0"
   # renovate: packageName=golang/go extractVersion=^go(?<version>.*)$
-  go: "1.26.5"
+  go: "1.26.6"
   # renovate: packageName=jqlang/jq extractVersion=^jq-(?<version>.*)$
   jq: "1.8.2"
   # renovate: packageName=derailed/k9s extractVersion=^v(?<version>.*)$
   k9s: "0.51.0"
   # renovate: packageName=jdx/mise extractVersion=^v(?<version>.*)$
-  mise: "2026.7.18"
+  mise: "2026.8.8"
   # renovate: packageName=ryanoasis/nerd-fonts extractVersion=^v(?<version>.*)$
-  nerd_fonts: "3.4.0"
+  nerd_fonts: "3.5.0"
   # renovate: packageName=nodejs/node extractVersion=^v(?<version>.*)$
-  node: "26.5.1"
+  node: "26.7.0"
   # renovate: packageName=JanDeDobbeleer/oh-my-posh extractVersion=^v(?<version>.*)$
-  oh_my_posh: "30.1.1"
+  oh_my_posh: "30.6.5"
   # renovate: packageName=BurntSushi/ripgrep
   ripgrep: "15.2.0"
   # renovate: packageName=koalaman/shellcheck extractVersion=^v(?<version>.*)$
@@ -50,7 +50,7 @@ common:
   # renovate: packageName=jdx/usage extractVersion=^v(?<version>.*)$
   usage: "5.1.0"
   # renovate: packageName=astral-sh/uv
-  uv: "0.12.1"
+  uv: "0.12.5"
   # renovate: packageName=Yubico/yubikey-manager
   ykman: "5.9.2"
   # renovate: packageName=mikefarah/yq extractVersion=^v(?<version>.*)$
