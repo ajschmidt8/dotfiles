@@ -1,6 +1,7 @@
 {{ $versions := (includeTemplate "versions.tmpl" .) | fromYaml -}}
 [tools]
 age = '{{ $versions.age }}'
+"aqua:neovim/neovim" = '{{ $versions.neovim }}'
 aws-cli = '{{ $versions.aws }}'
 bat = '{{ $versions.bat }}'
 bitwarden = '{{ $versions.bitwarden }}'

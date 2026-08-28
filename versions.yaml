@@ -35,6 +35,8 @@ common:
   k9s: "0.51.0"
   # renovate: packageName=jdx/mise extractVersion=^v(?<version>.*)$
   mise: "2026.8.8"
+  # renovate: packageName=neovim/neovim extractVersion=^v(?<version>.*)$
+  neovim: "0.12.5"
   # renovate: packageName=ryanoasis/nerd-fonts extractVersion=^v(?<version>.*)$
   nerd_fonts: "3.5.0"
   # renovate: packageName=nodejs/node extractVersion=^v(?<version>.*)$
