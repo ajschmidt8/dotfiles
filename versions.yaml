@@ -2,7 +2,7 @@ common:
   # renovate: packageName=FiloSottile/age extractVersion=^v(?<version>.*)$
   age: "1.3.2"
   # renovate: packageName=aws/aws-cli
-  aws: "2.36.36"
+  aws: "2.36.37"
   # renovate: packageName=sharkdp/bat extractVersion=^v(?<version>.*)$
   bat: "0.26.1"
   # renovate: packageName=bitwarden/clients extractVersion=^cli-v(?<version>.*)$
@@ -10,7 +10,7 @@ common:
   # renovate: packageName=oven-sh/bun extractVersion=^bun-v(?<version>.*)$
   bun: "1.4.0"
   # renovate: packageName=anthropics/claude-code extractVersion=^v(?<version>.*)$
-  claude: "2.1.252"
+  claude: "2.1.257"
   # renovate: packageName=schollz/croc extractVersion=^v(?<version>.*)$
   croc: "11.3.6"
   # renovate: packageName=dandavison/delta
@@ -24,17 +24,17 @@ common:
   # renovate: packageName=junegunn/fzf extractVersion=^v(?<version>.*)$
   fzf: "0.74.3"
   # renovate: packageName=cli/cli extractVersion=^v(?<version>.*)$
-  gh: "2.98.0"
+  gh: "2.99.0"
   # renovate: packageName=gitlab-org/cli datasource=gitlab-tags extractVersion=^v(?<version>.*)$
-  glab: "1.115.0"
+  glab: "1.116.0"
   # renovate: packageName=golang/go extractVersion=^go(?<version>.*)$
-  go: "1.27.0"
+  go: "1.27.1"
   # renovate: packageName=jqlang/jq extractVersion=^jq-(?<version>.*)$
   jq: "1.8.2"
   # renovate: packageName=derailed/k9s extractVersion=^v(?<version>.*)$
   k9s: "0.51.0"
   # renovate: packageName=jdx/mise extractVersion=^v(?<version>.*)$
-  mise: "2026.8.16"
+  mise: "2026.9.0"
   # renovate: packageName=neovim/neovim extractVersion=^v(?<version>.*)$
   neovim: "0.12.5"
   # renovate: packageName=ryanoasis/nerd-fonts extractVersion=^v(?<version>.*)$
@@ -42,7 +42,7 @@ common:
   # renovate: packageName=nodejs/node extractVersion=^v(?<version>.*)$
   node: "26.8.1"
   # renovate: packageName=JanDeDobbeleer/oh-my-posh extractVersion=^v(?<version>.*)$
-  oh_my_posh: "31.1.1"
+  oh_my_posh: "31.1.2"
   # renovate: packageName=BurntSushi/ripgrep
   ripgrep: "15.2.0"
   # renovate: packageName=koalaman/shellcheck extractVersion=^v(?<version>.*)$
