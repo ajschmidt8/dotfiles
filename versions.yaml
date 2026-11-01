@@ -12,7 +12,7 @@ common:
   # renovate: packageName=anthropics/claude-code extractVersion=^v(?<version>.*)$
   claude: "2.1.316"
   # renovate: packageName=schollz/croc extractVersion=^v(?<version>.*)$
-  croc: "11.6.0"
+  croc: "11.6.1"
   # renovate: packageName=dandavison/delta
   delta: "0.20.1"
   # renovate: packageName=bootandy/dust extractVersion=^v(?<version>.*)$
