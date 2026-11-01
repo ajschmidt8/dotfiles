@@ -50,7 +50,7 @@ common:
   # renovate: packageName=getsops/sops extractVersion=^v(?<version>.*)$
   sops: "3.13.3"
   # renovate: packageName=jdx/usage extractVersion=^v(?<version>.*)$
-  usage: "6.12.1"
+  usage: "7.1.5"
   # renovate: packageName=astral-sh/uv
   uv: "0.13.6"
   # renovate: packageName=Yubico/yubikey-manager
